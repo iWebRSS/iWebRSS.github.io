@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <title>iStore</title>
+    <link rel="stylesheet" href="iweb.css">
+</head>
+
+<body style="background-color: black; width: 100%;">
+    <nav class="navbar navbar-expand-lg navbar-success bg-dark">
+        <a class="navbar-brand" href="index.html">iStore</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="About.html">About</a>
+                </li>
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact1.html">Contact us</a>
+                </li>
+
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+
+                <div class="mx-2">
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#loginModal"><a href="login.html"
+                            style="color: #fff; text-decoration: none;">Login</a></button>
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#signupModal">SignUp</button>
+                </div>
+            </form>
+        </div>
+    </nav>
+
+
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="CYBERPUNK" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>CYBERPUNK 2077:Phantom and liberty</h5>
+                    <p></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="gta5.webp" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Grand Theft Auto 5 </h5>
+                    <p></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="fifa" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>FIFA 2023</h5>
+                    <p></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="wwe.avif" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>WWE 2K23</h5>
+                    <p></p>
+                </div>
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </button>
+    </div>
+
+    <div class="container my-2">
+        <div class="row row-cols-1 row-cols-md-4">
+            <div class="card" style="background-color: gray; margin-right: 2px; margin-left: -10px;">
+                <img src="https://gmedia.playstation.com/is/image/SIEPDC/ps5-games-horizon-forbidden-west-image-block-01-en-28jul21?$600px--t$"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Horizon Forbidden West</h5>
+                    <p class="card-text" style="font-size: x-small;">Explore distant lands, fight bigger and more
+                        awe-inspiring machines, and encounter astonishing new tribes as you return to the far-future,
+                        post-apocalyptic world of Horizon.</p>
+                    <a href="login.html" class="btn btn-primary">Add to Cart</a>
+                </div>
+            </div>
+            <div class="card" style="background-color: gray; margin-right: 2px;">
+                <img src="https://gmedia.playstation.com/is/image/SIEPDC/ps5-games-spiderman-miles-morales-image-block-en-26aug22?$600px--t$"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Marvel's Spider Miles Morales</h5>
+                    <p class="card-text" style="font-size: x-small;">In the latest adventure in the Marvel’s Spider-Man
+                        universe, teenager Miles Morales is adjusting to his new home while following in the footsteps
+                        of his mentor, Peter Parker, as a new Spider-Man.</p>
+                    <a href="login.html" class="btn btn-primary">Add to Cart</a>
+                </div>
+            </div>
+            <div class="card h-100" style="background-color: gray; margin-right: 2px;">
+                <img src="https://gmedia.playstation.com/is/image/SIEPDC/ps5-games-uncharted-hub-image-block-02-en-21oct21?$600px--t$"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">UNCHARTED™: Legacy of Thieves Collection</h5>
+                    <p class="card-text" style="font-size: x-small;">Seek your legacy and leave your mark on the map in
+                        UNCHARTED: Legacy of Thieves Collection. Experience Naughty Dog’s thrilling, cinematic
+                        storytelling and the iconic franchise’s largest blockbuster action set pieces.</p>
+                    <a href="login.html" class="btn btn-primary">Add to Cart</a>
+                </div>
+            </div>
+            <div class="card h-100" style="background-color: gray; margin-right: 2px;">
+                <img src="https://gmedia.playstation.com/is/image/SIEPDC/ps5-games-returnal-image-block-01-en-28jul21?$600px--t$"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Returnal</h5>
+                    <p class="card-text" style="font-size: x-small;">After crash-landing on this shape-shifting world,
+                        Selene must search through the barren landscape of an ancient civilization for her escape.
+                        Isolated and alone, she finds herself fighting tooth and nail for survival. Again and again,
+                        she’s defeated – forced to restart her journey every time she dies.</p>
+                    <a href="login.html" class="btn btn-primary">Add to Cart</a>
+                </div>
+            </div>
+            <div class="card h-100 my-2" style="background-color: gray; margin-right: 2px; margin-left: -10px">
+                <img src="https://gmedia.playstation.com/is/image/SIEPDC/ps5-games-death-stranding-image-block-04-en-25oct21?$600px--t$"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">DEATH STRANDING DIRECTOR'S CUT</h5>
+                    <p class="card-text" style="font-size: x-small;">In the future, a mysterious event known as the
+                        Death Stranding has opened a doorway between the living and the dead, leading to grotesque
+                        creatures from the afterlife roaming the fallen world marred by a desolate society.</p>
+                    <a href="login.html" class="btn btn-primary">Add to Cart</a>
+                </div>
+            </div>
+            <div class="card h-150 my-2" style="background-color: gray; margin-right: 2px;">
+                <img src="https://image.api.playstation.com/vulcan/ap/rnd/202207/1210/4xJ8XB3bi888QTLZYdl7Oi0s.png"
+                    style="height: 350px;" class="card-img-top" alt="...">
+                <div class="card-body" style="margin-bottom: -20px;">
+                    <h5 class="card-title">God Of War III Remastered</h5>
+                    <p class="card-text" style="font-size: x-small;">While this was a natural direction for the game to
+                        take, it was also a challenging one for the developers at Santa Monica Studio (SMS), moving
+                        beyond the protagonist they’d worked on for nearly two decades to create a brand-new playable
+                        character whose own motivations would drive the story.</p>
+                    <a href="login.html" class="btn btn-primary">Add to Cart</a>
+                </div>
+            </div>
+            <div class="card h-150 my-2" style="background-color: gray; margin-right: 2px;">
+                <img src="https://image.api.playstation.com/vulcan/ap/rnd/202303/0918/b09a97bad4908bf89331035aae3336a7c83ac6c8004871f1.jpg?w=1920&thumb=false"
+                    style="height: 347px;" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Stray Souls</h5>
+                    <p class="card-text" style="font-size: x-small;">Unlock the secrets hidden within the haunted town
+                        of Aspen Falls, featuring gruesome enemy encounters, epic bosses. Play as Daniel – an average
+                        teenager whose life is
+                        forever changed after inheriting the home of his mad and a mysterious
+                        woman with intimate knowledge about his family.</p>
+                    <a href="login.html" class="btn btn-primary">Add to Cart</a>
+                </div>
+            </div>
+            <div class="card h-150 my-2" style="background-color: gray; margin-right: 2px;">
+                <img src="https://gmedia.playstation.com/is/image/SIEPDC/ps5-games-sackboy-image-block-01-en-28jul21?$600px--t$"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Sackboy™: A Big Adventure</h5>
+                    <p class="card-text" style="font-size: x-small;">Iconic iStore® hero Sackboy bursts back into
+                        breathtaking action with a huge, fun and frantic 3D multiplayer platforming adventure – and a
+                        whole new edgy sackitude!</p>
+                    <a href="login.html" class="btn btn-primary">Add to Cart</a>
+                </div>
+
+            </div>
+        </div>
+
+        <h1 style="text-align: center; font-family: Arial, Helvetica, sans-serif; color: dodgerblue ;">PRE-ORDER NEW
+            UPCOMING GAMES</h1>
+
+
+        <div class="video-background-holder" style="margin-top: -50px;">
+            <div class="video-background-overlay"></div>
+            <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" style="float: left;">
+                <source src="GTA6.mp4">
+            </video>
+
+            <div class="d-flex h-100 text-center align-items-center">
+                <div class="w-100 text-white" style="float: right; margin-top: 50px; margin-left: 40px;">
+                    <h1 class="display-3 d-flex">GTA VI</h1>
+                    <h3>Coming Soon</h3>
+
+                    <p style="font-size: x-small;">An untitled Grand Theft Auto game[a] is in development by Rockstar
+                        Games. It is due to be the eighth main Grand Theft Auto game, following Grand Theft Auto V
+                        (2013), and the sixteenth instalment overall. Following years of speculation and leaks, Rockstar
+                        confirmed in February 2022 that the game is in development. Footage from unfinished versions was
+                        leaked online in September 2022 in what was described as one of the biggest leaks in the history
+                        of the video game industry.</p>
+                    <a href="login.html"><button class="btn-primary submit"
+                            style="border-radius: 4px; padding: 3px 10px;">Pre-Order Now</button></a>
+                </div>
+
+            </div>
+
+            <video width="850" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop"
+                style="float: right;">
+                <source src="Alan.webm">
+            </video>
+
+            <div class="d-flex h-100 text-center align-items-center">
+                <div class="w-100 text-white" style="float: left; margin-top: 50px; margin-left: -40px;">
+                    <h1 class="display-3 d-flex">ALAN WAKE II</h1>
+                    <h3>Coming Soon</h3>
+
+                    <p style="font-size: x-small; float: left; display: flex;">Saga Anderson is a gifted FBI agent
+                        called to the small Pacific Northwest town of Bright Falls to investigate a series of
+                        ritualistic murders. Alan Wake is a writer who has spent years trapped in the Dark Place, a
+                        terrifying alternate reality that can be reshaped by his words. Although they have never met,
+                        the two are connected across separate realities, their actions able to change their respective
+                        worlds.</p>
+                    <a href="login.html"><button class="btn-primary submit"
+                            style="border-radius: 4px; padding: 3px 10px;">Pre-Order Now</button></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- End -->
+
+    <footer class="container"
+        style="text-align: center; color: #fff; position: absolute; margin-bottom: 2rem; margin-left: 11%; padding-top: 2.5rem;">
+        <p class="float-center"><a href="#">Back to top</a></p>
+        <p>© 2023-2024 iWeb, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+    </footer>
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
